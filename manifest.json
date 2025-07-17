@@ -1,0 +1,23 @@
+{
+  "name": "Mama Mindfully",
+  "short_name": "MamaMindfully",
+  "description": "A minimalist digital planner and mindfulness companion for modern mothers.",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/mama-mindfully-cover.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FDF6F0",
+  "theme_color": "#e8c3b9",
+  "orientation": "portrait-primary",
+  "lang": "en"
+}

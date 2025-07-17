@@ -1,0 +1,40 @@
+/* -----------------------------------
+  Mama Mindfully: Global Styles
+  Author: Alexandria Shinaut
+  Description: Polished and mindful base styling for elegance, calm, and grace.
+----------------------------------- */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base typography */
+@layer base {
+  body {
+    @apply bg-cream-bg text-brand-dark font-serif antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif tracking-wide text-brand;
+  }
+  a {
+    @apply text-brand underline hover:text-brand-dark;
+  }
+  button {
+    @apply focus:outline-none focus:ring-2 focus:ring-brand;
+  }
+}
+
+/* Optional global component enhancements */
+@layer components {
+  .btn-primary {
+    @apply bg-brand text-white py-3 px-6 rounded-xl font-bold shadow-md transition hover:bg-brand-dark;
+  }
+  .card {
+    @apply bg-white border-4 border-brand rounded-2xl shadow-xl p-6;
+  }
+}

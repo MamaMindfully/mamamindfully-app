@@ -1,0 +1,49 @@
+{
+  "name": "mama-mindfully",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mama Mindfully: A minimalist digital planner and mindfulness companion for modern mothers. Affirmations, gratitude, holistic living — all in one elegant app.",
+  "author": "Alexandria Pace",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "firebase": "^10.12.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.17",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss": "^8.4.34",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5",
+    "vite": "^7.0.4",
+    "prettier": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandriapace/mama-mindfully"
+  },
+  "keywords": [
+    "mindfulness",
+    "affirmations",
+    "planner",
+    "moms",
+    "wellness",
+    "tailwindcss",
+    "react",
+    "vite",
+    "pwa"
+  ]
+}
